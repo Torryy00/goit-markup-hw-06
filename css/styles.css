@@ -683,27 +683,43 @@ img {
 }
 
 /*---------------------backdrop--------------------------*/
-.overlay {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(46, 47, 66, 40%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
-
-.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+.modal-subscribe {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background: #2e2f42;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
 
-.modal {
+.Subscribe-email .placeholder {
+  color: #ffffff;
+}
+.modal-overlay {
   border-radius: 4px;
   width: 408px;
   min-height: 584px;
@@ -717,7 +733,6 @@ img {
   padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .model-close-btn {
   display: flex;
   align-items: center;
