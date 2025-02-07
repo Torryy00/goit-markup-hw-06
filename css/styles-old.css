@@ -88,12 +88,13 @@ margin-right: 120px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.ul-section-two {
+.ul-section-two  {
   display: flex;
   gap: 24px;
 }
 .li-section-two {
   width: calc((100% - 72px) / 4);
+
 
 }
 .div-icon {
