@@ -316,7 +316,7 @@ row-gap: 48px;
   visibility: visible;
   pointer-events: auto;
 }
-/* .modal-subscribe {
+.modal-subscribe {
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -329,11 +329,11 @@ row-gap: 48px;
   padding-left: 16px;
   color: #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-} */
+} 
 
-/* .Subscribe-email .placeholder {
+.Subscribe-email .placeholder {
   color: #ffffff;
-} */
+}
 .modal-overlay {
   border-radius: 4px;
   width: 408px;
