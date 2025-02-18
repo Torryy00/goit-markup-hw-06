@@ -176,7 +176,7 @@ ul, ol {
 }
 @media screen and (min-width: 1440px) {
     .logo {
-        margin-right: 120px;
+        margin-right: 76px;
       }
       .ul-address-link {
         align-items: center;
@@ -1416,7 +1416,7 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
+
     text-decoration: none;
   }
   .footer-logo-color {
@@ -1428,7 +1428,7 @@ ul, ol {
     text-transform: uppercase;
     color: #f4f4fd;
     display: inline-block;
-    margin-bottom: 16px;
+ 
   }
   .footer-text{
     font-weight: 400;
